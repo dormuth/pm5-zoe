@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>U.S. 61 National Park's Visualization</title>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+	<script src="data.js" type="text/javascript"></script>
+	<script src="np.js" type="text/javascript"></script>
+	<script src="https://d3js.org/d3.v5.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="np.css" />
+     
+</head>
+<body>
+	<h1>The U.S. 61 National Park's Exploratory Visualization</h1>
+	<div class = "container">
+	<div id = "map"></div>
+	<h4>Selected National Park Information:</h4>
+	<div class = "display">
+		<svg id="park" class="info"/>
+	</div>
+	<div class = "timeline">
+		<label for="month-select">Select month:</label>
+		<select id="month-select"></select>
+	</div>
+	<div id="park" class = "controls">
+		<h4>Activities:</h4>
+		<h5>Hiking:</h5>
+		<input type="checkbox" class = "filter-check" name = "day hiking">day hiking</input>
+		<input type="checkbox" class = "filter-check" name = "backpacking">backpacking</input>
+		<h5>Biking:</h5>
+		<input type="checkbox" class = "filter-check" name = "mountain biking">mountain biking</input>
+		<input type="checkbox" class = "filter-check" name = "road biking">road biking</input>
+		<h5>Climbing:</h5>
+		<input type="checkbox" class = "filter-check" name = "rock climbing">rock climbing</input>
+		<input type="checkbox" class = "filter-check" name = "canyoneering">canyoneering</input>
+		<input type="checkbox" class = "filter-check" name = "mountaineering">mountaineering</input>
+		<h5>Water Activities:</h5>
+		<input type="checkbox" class = "filter-check" name = "canoeing">canoeing</input>
+		<input type="checkbox" class = "filter-check" name = "kayaking">kayaking</input>
+		<input type="checkbox" class = "filter-check" name = "sea-kayaking">sea-kayaking</input>
+		<input type="checkbox" class = "filter-check" name = "SCUBA diving">SCUBA diving</input>
+		<input type="checkbox" class = "filter-check" name = "snorkeling">snorkeling</input>
+		<input type="checkbox" class = "filter-check" name = "whitewater rafting">whitewater rafting</input>
+		<input type="checkbox" class = "filter-check" name = "boat tours">boat tours</input>
+		<input type="checkbox" class = "filter-check" name = "float trips">float trips</input>
+		<input type="checkbox" class = "filter-check" name = "hot springs bath">hot springs bath</input>
+		<input type="checkbox" class = "filter-check" name = "swimming">swimming</input>
+		<input type="checkbox" class = "filter-check" name = "beaches">beaches</input>
+		<input type="checkbox" class = "filter-check" name = "boat-accessible camping">boat-accessible camping</input>
+		<h5>Nature:</h5>
+		<input type="checkbox" class = "filter-check" name = "scenic-viewing">scenic-viewing</input>
+		<input type="checkbox" class = "filter-check" name = "stargazing">stargazing</input>
+		<input type="checkbox" class = "filter-check" name = "wildlife-viewing">wildlife-viewing</input>
+		<input type="checkbox" class = "filter-check" name = "bird-watching">bird-watching</input>
+		<input type="checkbox" class = "filter-check" name = "fishing">fishing</input>
+		<h5>Transportation:</h5>
+		<input type="checkbox" class = "filter-check" name = "horseback riding">horseback riding</input>
+		<input type="checkbox" class = "filter-check" name = "4WDing">4WDing</input>
+		<input type="checkbox" class = "filter-check" name = "scenic driving">scenic driving</input>
+		<input type="checkbox" class = "filter-check" name = "scenic flights">scenic flights</input>
+		<input type="checkbox" class = "filter-check" name = "helicopter tours">helicopter tours</input>
+		<h5>Miscellanious:</h5>
+		<input type="checkbox" class = "filter-check" name = "historical sites">historical sites</input>
+		<input type="checkbox" class = "filter-check" name = "cave tours">cave tours</input>
+		<input type="checkbox" class = "filter-check" name = "spelunking">spelunking</input>
+		<input type="checkbox" class = "filter-check" name = "sandboarding">sandboarding</input>
+	</div>
+</div>
+</body>
+</html>

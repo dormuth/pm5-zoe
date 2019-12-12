@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    padding: 0;
+}
+
+div {
+    padding: 5px;
+}
+
+svg {
+    border: 1px black solid;
+}
+
+select {
+    width: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 2px;
+}
+
+.info {
+    width: 600;
+    height: 600;
+    border: 1px black solid;
+}
+
+.container {
+    position: relative;
+}
+
+#map {  
+    width: 850px; 
+    height: 600px;
+    float: top;
+}
+
+#park {
+    width: 850px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.display {
+    height: 100px;
+    width: 850px;
+    display: flex;
+    flex-direction: row; 
+    position: relative;
+}
+
+.controls {
+    width: 600px;
+    display: inline-flex;
+    flex-direction: column;
+}
+

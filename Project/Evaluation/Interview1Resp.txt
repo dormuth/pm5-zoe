@@ -1,0 +1,45 @@
+Interview 1 Question Responses:
+
+Description of participant: 23-year old male from Tucson, AZ. Familiar with National Parks and have been to them.
+
+Background: (pre-determined)
+
+When is the last time you've been to a National Park?
+"Is Red Rocks a National Park? No."
+
+Do you know how many National Parks there are?
+"36. I don't know."
+
+What National Park do you want to visit the most?
+"Glacier National Park or Grand Tetons."
+
+Why?
+"The mountains look cool and there are lots of lakes to kayak."
+
+What time of year would you ideally visit it?
+"Summertime."
+
+What's your favorite activities?
+"Rock-climbing, mountain biking, kayaking."
+
+Visualization: (pre-determined)
+
+Can you find your location on the map?
+"(Scrolled to locaiton before asked question) "Let's look at my home."
+
+Can you see where the National Park's you know are on the map?
+"Yes, I know some of them. I didn't know Grand Tetons were there."
+
+Do you understand the size of the circles?
+"Yes, they show how popular the parks are."
+
+Which activities are you interested in doing at the National Parks?
+"(Selects all the activites they would like to do) Says each activity as selects it. Where are the names of the National Park? Which one's have the activity? (Struggled to check the boxes that corresponded to the activity selected)"
+
+Probing Questions:
+
+What would you change about this visualization?
+"Add directions on how to use the visualization. I would center the map in the middle of the screen window and make things cleaner. Listing the selected National Park above the map in a text format would be helpful."
+
+What did you like about the visualization?
+"I liked the cost displayed as well as being able to select activities. A history of which National Park's I selected and which activites they have would be nice to see as well as the cost. A history of selections and the data that goes along with them would be good. The population is important to me. I liked that."
